@@ -1,3 +1,11 @@
+/**
+ * Esta parte del codigo sería la que supuestamente hace el juego mande a llamar los conjuntos de palabras
+ * aquí usamos las partes de letras dadas para las letras que ya usamos
+ * las letrasAdivinadas para para las letras que ya conocemos
+ * palabra a obtener sirve para la palabra que traemos de los strings
+ * letraDada es la palabra que vamos a ir dandole a la computadora
+ *
+ */
 package edu.jorge.nicolas.moctezuma.arellano.reto5.ui;
 import edu.jorge.nicolas.moctezuma.arellano.reto5.process.Juego;
 
@@ -70,8 +78,10 @@ public class CLI {
                   }
               }
               System.out.println();
+          }else {
+              letrasDadas.add(letraDada);
+              System.out.println("Intentelo una vez más");
           }
-
         }
     }
 }

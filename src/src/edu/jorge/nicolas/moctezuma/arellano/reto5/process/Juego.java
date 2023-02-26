@@ -1,3 +1,7 @@
+/**
+ * Estás son las listas de palabras para las 3 dificultades del juego
+ */
+
 package edu.jorge.nicolas.moctezuma.arellano.reto5.process;
 import edu.jorge.nicolas.moctezuma.arellano.reto5.ui.CLI;
 
