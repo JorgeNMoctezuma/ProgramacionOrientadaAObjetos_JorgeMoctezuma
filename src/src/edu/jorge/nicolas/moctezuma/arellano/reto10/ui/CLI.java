@@ -1,3 +1,8 @@
+/**
+ * en este CLI ponemos los valores dentro de nuestras clases de process, les damos un nombre, apellido, una edad, numero
+ * telefonico y un numero de seguro social, a los Jr.Enginner y Sr.Emginner los lenguajes que cononcen, tiempo al mando para CEO
+ * entre otros
+ */
 package edu.jorge.nicolas.moctezuma.arellano.reto10.ui;
 import edu.jorge.nicolas.moctezuma.arellano.reto10.process.*;
 
@@ -10,8 +15,6 @@ public class CLI {
         HR hr1 = new HR("I", "J", 23, 99999, 00000, 7);
 
         JrEngineer jr2 = new JrEngineer("A", "B", "Java, C#", 11111, 22222, 20);
-        JrEngineer jr3 = new JrEngineer("A", "B", "Java, C#", 11111, 22222, 20);
-        SrEnginner sr2 = new SrEnginner("C", "D", 21, 33333, 44444, "PHP, C++, C", 5);
 
         testEmpleado(jr1);
         testEmpleado(mng1);

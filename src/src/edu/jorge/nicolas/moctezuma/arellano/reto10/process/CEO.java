@@ -1,3 +1,6 @@
+/**
+ * En esta pagina de process como varías otras, podrémos encontrar atributos, constructores, metodos y los getters y setters
+ */
 package edu.jorge.nicolas.moctezuma.arellano.reto10.process;
 
 public class CEO extends Manager{
