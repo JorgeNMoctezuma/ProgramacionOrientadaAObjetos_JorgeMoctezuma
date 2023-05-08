@@ -7,4 +7,19 @@ JrEngineer; F ; f ; 22 ; 00005 ; 00050 ; HTML ; F05
 JrEngineer; G ; g ; 23 ; 00006 ; 00060 ; JavaScript ; G06
 JrEngineer; H ; h ; 24 ; 00007 ; 00070 ; PHP ; H07
 JrEngineer; I ; i ; 25 ; 00008 ; 00080 ; Java ; I08
+<<<<<<< Updated upstream
 JrEngineer; J ; j ; 26 ; 00009 ; 00090 ; Python ; J09
+=======
+JrEngineer; J ; j ; 26 ; 00009 ; 00090 ; Python ; J09
+JrEngineer; K ; k ; 27 ; 00010 ; 00100 ; PHP ; K10
+JrEngineer; L ; l ; 28 ; 00011 ; 00110 ; HTML ; L11
+JrEngineer; M ; m ; 29 ; 00012 ; 00120 ; Java ; M12
+JrEngineer; N ; n ; 30 ; 00013 ; 00130 ; C ; N13
+JrEngineer; O ; o ; 29 ; 00014 ; 00140 ; C# ; O14
+JrEngineer; P ; p ; 28 ; 00015 ; 00150 ; C++ ; P15
+JrEngineer; Q ; q ; 27 ; 00016 ; 00160 ; HTML ; Q16
+JrEngineer; R ; r ; 26 ; 00017 ; 00170 ; JavaScript ; R17
+JrEngineer; S ; s ; 25 ; 00018 ; 00180 ; PHP ; S18
+JrEngineer; T ; t ; 24 ; 00019 ; 00190 ; Python ; T19
+JrEngineer; U ; u ; 23 ; 00020 ; 00200 ; Java ; U20
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 package edu.jorge.nicolas.moctezuma.arellano.reto11.process;
+<<<<<<< Updated upstream
 import edu.jorge.nicolas.moctezuma.arellano.reto11.ui.Programmer;
 import java.util.Objects;
 
@@ -52,5 +53,36 @@ public class JrEngineer extends Empleado implements Programmer{
     }
     public void setRfc(String rfc){
         this.rfc = rfc;
+=======
+
+public class JrEngineer extends Empleado implements Programador{
+    /**
+     * utilizando herencia para saber que es empleado, trabaja, y programa
+     */
+    public JrEngineer(){}
+    protected String RFC;
+
+    public JrEngineer(String name, int age, String RFC){
+        super(name, age);
+        this.RFC = RFC;
+    }
+
+    public JrEngineer(String name, int age){
+        super(name, age);
+    }
+
+    @Override
+    public void trabajar(){
+        System.out.println("Trabaja con la espalda rota");
+    }
+    @Override
+    public int compareTo(Empleado empleado){
+        return name.compareTo(empleado.name);
+    }
+
+    @Override
+    public void programar() {
+        System.out.println("Trabaja jorobado");
+>>>>>>> Stashed changes
     }
 }

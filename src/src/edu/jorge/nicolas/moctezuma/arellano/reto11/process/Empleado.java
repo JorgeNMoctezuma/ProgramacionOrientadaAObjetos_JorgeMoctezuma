@@ -1,6 +1,7 @@
 package edu.jorge.nicolas.moctezuma.arellano.reto11.process;
 import java.util.Objects;
 
+<<<<<<< Updated upstream
 public abstract class Empleado {
     private String Nombre;
     private String Apellido;
@@ -68,5 +69,48 @@ public abstract class Empleado {
     public void setNumSegSo(int numSegSo){
         this.NumSegSo = NumSegSo;
     }
+=======
+/**
+ * Aquí es donde sucede la magia sobre nuestros empleados y sus trabajos
+ */
+public abstract class Empleado implements  Comparable <Empleado>{
+        int age;
+        String name;
+        public Empleado() {}
+
+        @Override
+        public int compareTo(Empleado empleado){
+            return name.compareTo(empleado.name);
+        }
+
+        public Empleado(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public int getAge() {
+            return age;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(name, age);
+        }
+
+        public void trabajar(){
+            System.out.println("Trabajo genérico");
+        };
+
+        @Override
+        public String toString() {
+            return "Employee: " +
+                    name +
+                    "; Age: " + age ;
+        }
+>>>>>>> Stashed changes
 
 }

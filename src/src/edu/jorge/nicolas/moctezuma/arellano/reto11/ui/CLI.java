@@ -1,4 +1,5 @@
 package edu.jorge.nicolas.moctezuma.arellano.reto11.ui;
+
 import edu.jorge.nicolas.moctezuma.arellano.reto11.process.*;
 import java.util.ArrayList;
 import java.io.FileWriter;
@@ -48,14 +49,19 @@ public class CLI {
         imprimirMas20(Lista2);
     }
 
-    public static void imprimirMas20(ArrayList<String> lista){
-        for (String empleados : lista){
+    public static void imprimirMas20(ArrayList<String> lista) {
+        for (String empleados : lista) {
             String[] atributo = empleados.split(" ; ");
             int edad = Integer.parseInt(atributo[3]);
 
-            if (edad > 20){
+            if (edad > 20) {
                 System.out.println(empleados);
             }
         }
-    }
-}
+
+        public class CLI {
+            public static void mostrarMenu() {
+
+            }
+        }
+    }}
